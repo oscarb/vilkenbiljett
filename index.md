@@ -1,6 +1,6 @@
 ---
 title: Vilken biljett?
-layout: Cayman
+layout: cayman
 ---
 
 Under construction
