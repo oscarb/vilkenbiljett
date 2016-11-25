@@ -1,0 +1,85 @@
+/* Ticket prices starting january 9th 2017 */
+
+{singleTickets: [
+    {
+      name: "Enkelbiljett",
+      validTime: 75,
+      price: [{purchasedFrom: "Reskassa", adult: 30, reduced: 20},
+              {purchasedFrom: "Mobile", adult: 43, reduced: 29}},
+              {purchasedFrom: "Conductor", adult: 60, reduced: 40}]
+    },
+    {
+      name: "Enkelbiljett Arlanda + Passage-biljett",
+      price: {adult: 150, reduced: 120}
+    },
+    {
+      name: "Passage-biljett Arlanda",
+      price: {adult: 120, reduced: 120}
+    },
+    {
+      name: "Enkelbiljett Arlanda + Passage-biljett",
+      price: {adult: 150, reduced: 120}
+    }, ].
+ timeTickets: [
+  {
+    name: "24 timmar",
+    price: {adult: 120, reduced: 80}
+  },
+  {
+    name: "72 timmar",
+    price: {adult: 240, reduced: 160}
+  },
+  {
+    name: "7 dagar",
+    price: {adult: 315, reduced: 210}
+  },
+  {
+    name: "30 dagar",
+    price: {adult: 830, reduced: 550}
+  },
+  {
+    name: "90 dagar",
+    price: {adult: 2420, reduced: 1600}
+  },
+  {
+    name: "365 dagar",
+    price: {adult: 8720, reduced: 5840}
+  },
+  {
+    name: "30 dagar inklusive Arlanda-passage",
+    price: {adult: 1130, reduced: 850}
+  }],
+ schoolTickets: [
+  {
+    name: "Skolbiljett vårtermin",
+    price: 880
+  },
+  {
+    name: "Skolbiljett hösttermin",
+    price: 700
+  },  
+  {
+    name: "Skolbiljett 120 dagar",
+    price: 660
+  },
+  {
+    name: "Skolbiljett 90 dagar",
+    price: 540
+  },  
+  {
+    name: "Fritidsbiljett vårtermin",
+    price: 920
+  },
+  {
+    name: "Fritidsbiljett hösttermin",
+    price: 760
+  },
+  {
+    name: "Fritidsbiljett 120 dagar",
+    price: 720
+  },
+  {
+    name: "Fritidsbiljett 90 dagar",
+    price: 660
+  }]
+}
